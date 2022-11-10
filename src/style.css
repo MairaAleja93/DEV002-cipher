@@ -1,0 +1,51 @@
+body#indexx{
+    background-image: url(img/cifrario-2.jpg);
+    background-size: cover
+}
+#root {
+    text-align: center;
+}
+#page {
+    width: 300px;
+    margin: 0 auto;
+}
+body {
+    font-family: Verdana;
+}
+p {
+    text-align: center;
+}
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: block;
+  width: 150px;
+  margin: 1rem auto;
+}
+.botones {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.form-position button {
+    padding: .5em 1em;
+    border:none;
+    background: rgb(100,200,255);
+    cursor: pointer;
+}
+.form button {
+    padding: .5em 1em;
+    border:none;
+    background: rgb(100,200,255);
+    cursor: pointer;
+}
