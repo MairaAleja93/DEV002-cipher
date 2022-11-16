@@ -1,6 +1,59 @@
-body#indexx{
-    background-image: url(img/cifrario-2.jpg);
-    background-size: cover
+/*body#indexx{
+    background-image: url(img/descifrarCesar.jpg);
+    
+}*/
+.cabecera{
+    background: #333;
+	color: white;
+	height: 50px;
+}
+.fin{
+    background: #333;
+	color: white;
+	height: 50px;
+}
+#acomodar{
+    display: block;
+	font-weight: 500;
+	font-size: 1.2em;
+    text-align: center;
+}
+.site-name{
+    display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+.site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+.center{
+    width: 500px;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #dbe4ed;
+}
+/*.foto1 { 
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;  
+    float: center; 
+    width: 500px;
+    text-align: center;
+}*/
+#texto {
+    
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(100,200,255);
+    /*border: 2px solid black;*/
+    text-align: center;
+    color: black;
 }
 #root {
     text-align: center;
@@ -12,9 +65,7 @@ body#indexx{
 body {
     font-family: Verdana;
 }
-p {
-    text-align: center;
-}
+
 .form {
     width: 100%;
     max-width: 600px;
