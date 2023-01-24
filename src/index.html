@@ -12,43 +12,31 @@
 
     </header>
     <div id="root">
-      <h1>Caesar Cipher</h1>
-    </div>
-    
-    <div id="texto">
-      <p>Cifrado Cesar es un tipo de criptografía que consiste en cifrar un texto
-        desplazando <strong>N</strong> veces cada una de las letras del texto.
-        Para realizarlo en esta página podrás probrar primero ingresando un número
-        aleatoria para especificar las posiciones del cifrado ⬇😃
-      </p>
-    </div>
-    <div class="center">
-      <img class="foto1" src="img/descifrarCesar.jpg" alt="imagen 1">
+      <h2>Caesar Cipher</h2>
     </div>
     
     <div id="page">
       <p>Indique el número de desplazamiento:</p>
       <form class="form-position">
-        
         <input type="text" id="numPosition" style="WIDTH: 50px">
         <button type="button" id="btnSave">Guardar</button><br><br>
-      </form> 
+      </form>
+      <p>Seleccione (Cifrar/Descifrar):</p>
+      <select id="seleccionar">
+        
+        <option></option>
+        <option value="cifrar">Cifrar</option>
+        <option value="descifrar">Descifrar</option>
+      </select>
       <form class="form">
-        <p >Introduzca el mensaje a cifrar:</p> 
+        <p id="mensaje"><strong>Texto:</strong></p> 
         <input id="text1" style="WIDTH: 500px; HEIGHT: 200px"><br>
-        <button type="button" id="btnSubmit">Cifrar</button>
-        <p id="respuestaCifrada"></p>
-        <p>Introduzca el mensaje a descifrar:</p> 
-        <input id="text2" style="WIDTH: 500px; HEIGHT: 200px"><br>
-        <button type="button" id="btnDescifrar">Descifrar</button>
-        <p id="respuestaDescifrada"></p>
+        <button type="button" id="btnSubmit">Submit</button>
+        <p id="respuesta"></p>
       </form>
     </div>  
     
       <script src="index.js" type="module"></script>
-      <footer class="fin">
-        <p id="acomodar">Page by <a href="https://twitter.com/Maira0622_" target="_blank"><img src="img/pajarito.JPG"></a></p>
-      </footer>
     
   </body>
 </html>

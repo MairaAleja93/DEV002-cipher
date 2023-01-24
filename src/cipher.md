@@ -7,3 +7,4 @@ número de desplazamiento de cada letra. Para descifrar un texto el procedimient
 es exactamente el mismo del cifrado.
 
 * [Interfaz de usuario](src/img/pantalla.JGP)
+![caeser-cipher](descifrarCesar.jpg)
